@@ -1,0 +1,67 @@
+.tariff-plan--wrap {
+  display: flex;
+  padding: 100px;
+  background-color: #f1f1f1;
+}
+
+.tariff-plan {
+  justify-content: space-between;
+  padding-left: 30px;
+  width: 370px;
+  text-align: center;
+}
+
+.tariff-plan--title {
+  padding-top: 28px;
+  padding-bottom: 29px;
+  text-align: center;
+  font-size: 26px;
+  color: #ffffff;
+  background-color: #485460;
+  list-style: none;
+}
+
+.tariff-plan--subtitle {
+  padding-top: 28px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  color: #485460;
+  background-color: #f8f9fb;
+}
+
+.tariff-plan--list {
+  list-style: none;
+  font-size: 14px;
+  line-height: 45px;
+  background-color: #ffffff;
+  color: #8c9299;
+}
+
+.tariff-plan--item {
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.plan-btn {
+  background-color: #f8f9fb;
+}
+
+.plan-btn a {
+  display: inline-block;
+  margin-top: 29px;
+  margin-bottom: 30px;
+  padding: 12px 49px 12px 51px;
+  font-size: 17px;
+  background-color: #788492;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.tariff-plan--title:hover {
+  background: #49cbcd;
+  transition: 0.8s;
+}
+
+.plan-border:hover {
+  background: #49cbcd;
+  transition: 0.8s;
+}
