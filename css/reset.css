@@ -1,0 +1,80 @@
+/*Обнулення стилів*/
+* {
+  /* ! Зірочка значить  що звернення йде до всіх тегів на сторінці. Очищення всіх відступів і кордонів. */
+  padding: 0; /* внутрішній відступ */
+  margin: 0; /* Зовнішній  відступ */
+  border: 0; /* відступ країв (границь) */
+}
+
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; /* Змінює ширину блоку для комфортної вєрстки сайтів*/
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+} /* Забираємо лінії обводки у деяких браузерах*/
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+} /* Робимо  блочні значення цих тегів */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+} /* ! Вирівнюємо поведінку (висоту ширину і т.д.) шрифтів для різних браузерів */
+
+input,
+button,
+textarea {
+  font-family: inherit;
+} /* Для цих тегів задаємо наслідування сімейству шрифтів*/
+
+input::-ms-clear {
+  display: none;
+} /* наприклад - Забирає хрестик і інтернет експлоуер*/
+button {
+  cursor: pointer;
+} /* наприклад - Забирає зайві відступи в фаєрфокс для кнопок*/
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+} /* Чистяться стилі маркированих (?) списків */
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+} /* Обнуляємо заголовки */

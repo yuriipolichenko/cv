@@ -1,0 +1,39 @@
+.banner {
+  display: flex;
+  height: 566px;
+  background-image: url(../img/foto.jpg);
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  height: 63px;
+  margin-top: 139px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 63px;
+  color: #ffffff;
+}
+
+.bunner__subtitle {
+  max-width: 375px;
+  height: 61px;
+  margin-top: 30px;
+  font-family: "Open Sans";
+  font-size: 23px;
+  color: #ffffff;  
+  line-height: 35px;
+}
+
+.banner__btn {
+  position: absolute;
+  margin-top: 352px;
+  padding: 23px 36px 22px 43px;
+  border: 3px solid white;
+  border-radius: 8px;
+  font-family: "Open Sans";
+  font-size: 26px;
+  text-align: center;
+  color: #ffffff;
+}

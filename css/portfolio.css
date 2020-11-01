@@ -1,0 +1,29 @@
+.portfolio {
+  display: block;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 1030px;
+}
+.portfolio_head {
+  color: #4e525d;
+  font-size: 42px;
+  padding-top: 51px;
+  padding-bottom: 64px;
+}
+.img1 {
+  padding: 15px;
+}
+
+.portfolio__btn {
+  padding: 20px 62px 19px 62px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  background-color: #49cbcd;
+  border-radius: 4px;
+}
+.see_all {
+  padding-top: 51px;
+  padding-bottom: 64px;
+}

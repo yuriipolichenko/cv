@@ -1,0 +1,127 @@
+.contact-wrapp {
+  text-align: center;
+  background-image: url(../img/contact.png);
+  background-color: #303030;
+  background-size: cover;
+  height: 691px;
+  /* opacity: 0.28; */
+}
+
+.contact {
+  padding-top: 107px;
+  font-size: 42px;
+  text-align: center;
+  color: #ffffff;
+}
+.contact-all {
+  margin-top: 121px;
+  margin-left: 138px;
+  display: flex;
+  align-items: baseline;
+}
+
+.contact-all-info {
+  max-width: 430px;
+}
+
+.contact-all-info-header {
+  font-size: 24px;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.contact-all-info-text {
+  margin-top: 16px;
+  max-width: 430px;
+  max-height: 36px;
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.5;
+  text-align: left;
+  color: #ffffff;
+  letter-spacing: normal;
+  overflow: hidden;
+}
+
+.contact-all-info-social {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+
+#contact-all-info-social-id {
+  margin-right: 15px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.contact-all-info-phone {
+  margin-top: 21px;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #bface2;
+}
+
+.contact-all-form input {
+    border-radius: 3px;
+}
+
+.contact-all-form-name-email {
+  display: flex;
+  justify-content: space-between;
+  /* height: 44px; */
+}
+
+.contact-all-form-massege input {
+  margin-top: 31px;
+  width: 570px;
+  height: 179px;
+}
+
+::-webkit-input-placeholder {
+  padding-left: 21px;
+  font-size: 16px;
+  color: #c1c1c1;
+  line-height: 24px;
+  text-align: left;
+}
+
+.info__btn_block {
+  display: flex;
+  text-align: right;
+}
+
+.info__btn {
+  margin: 31px 139px auto auto;
+  padding: 12px 66px 19px 55px;
+  font-size: 22px;
+}
+
+.form {
+  width: 570px;
+  background: green;
+  padding: 20px 0;
+}
+
+.input-line {
+display: flex;
+justify-content: space-between;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 270px;
+  height: 44px;
+  padding: 16px 20px;
+  font-size: 16px;
+}
+
+.textarea {
+
+}

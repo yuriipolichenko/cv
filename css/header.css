@@ -1,0 +1,64 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  background-color: #ffffff;
+  height: 101px;
+}
+
+.logo img {
+  width: 120px;
+  height: 37px;
+  margin: 33px 0px 32px 136px;
+}
+.menu-main {
+  display: flex;
+  margin-right: 139px;
+  text-transform: none;
+  font-family: "Open Sans";
+  background: white;
+  list-style-type: none;
+}
+
+.menu-main a {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: 85px;
+  line-height: 98px;
+  font-size: 15px;
+  display: inline-block;
+  transition: color 0.2s;
+}
+.menu-main a,
+.menu-main a:visited {
+  color: #484c55;
+} /*Колір тексту кнопки*/
+.menu-main a.current,
+.menu-main a:hover {
+  color: #49cbcd;
+} /* Підсвічування тексту(Зміна його кольору) кнопки при наведенні на неї курсора */
+
+/* ! Нижнє підчеркування */
+.menu-main a:before,
+.menu-main a:after {
+  /*Підчеркування йде з середини, before і after показує напрямок вперед і назад */
+  content: "";
+  position: absolute; /* !Застосування підчеркування */
+  height: 3px; /*Товщина лінії підчеркування*/
+  right: 50%; /*Зміщення лінії підчеркування вправо*/
+  bottom: -4px; /*Відстань від кнопки до підчеркування*/
+  left: 50%;
+  background: #49cbcd; /*Колір нижнього підчеркування*/
+  transition: 0.8s; /*Час розкриття нижнього підчеркування (анімації)*/
+}
+
+.menu-main a:hover:before,
+.menu-main .current:before {
+  left: 0;
+}
+.menu-main a:hover:after,
+.menu-main .current:after {
+  right: 0;
+}
