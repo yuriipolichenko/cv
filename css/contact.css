@@ -69,14 +69,13 @@
 }
 
 .contact-all-form input {
-  margin-left: 165px;
-  border-radius: 3px;
+    border-radius: 3px;
 }
 
 .contact-all-form-name-email {
   display: flex;
   justify-content: space-between;
-  height: 44px;
+  /* height: 44px; */
 }
 
 .contact-all-form-massege input {
@@ -102,4 +101,27 @@
   margin: 31px 139px auto auto;
   padding: 12px 66px 19px 55px;
   font-size: 22px;
+}
+
+.form {
+  width: 570px;
+  background: green;
+  padding: 20px 0;
+}
+
+.input-line {
+display: flex;
+justify-content: space-between;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 270px;
+  height: 44px;
+  padding: 16px 20px;
+  font-size: 16px;
+}
+
+.textarea {
+
 }

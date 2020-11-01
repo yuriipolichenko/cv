@@ -11,6 +11,11 @@
   text-align: center;
 }
 
+.tariff-plan:hover {
+background-color: red;
+
+}
+
 .tariff-plan--title {
   padding-top: 28px;
   padding-bottom: 29px;
@@ -65,3 +70,4 @@
   background: #49cbcd;
   transition: 0.8s;
 }
+
